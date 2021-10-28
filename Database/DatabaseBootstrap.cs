@@ -1,6 +1,5 @@
 using Dapper;
 using Microsoft.Data.Sqlite;
-using System.Linq;
 using wtw_interview_project_api.Database;
 
 namespace wtw_INTerview_project_api.Database
@@ -21,11 +20,6 @@ namespace wtw_INTerview_project_api.Database
         public void Setup()
         {
             using var connection = new SqliteConnection(databaseConfig.Name);
-
-            // var database = connection.Query<string>("SELECT * FROM sqlite_master WHERE type='table';");
-            // var databaseName = database.FirstOrDefault();
-            // if (!string.IsNullOrEmpty(databaseName) && databaseName == "LicensingDb")
-            //     return;
 
             connection.Open();
 

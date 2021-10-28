@@ -2,8 +2,9 @@ namespace wtw_interview_project_api.Entities
 {
     public enum AgentStatusEnum
     {
-        Inactive = 0,
-        Active = 1
+        Active = 1,
+        InProgress = 2,
+        Inactive = 3
     }
     public class Agent
     {
