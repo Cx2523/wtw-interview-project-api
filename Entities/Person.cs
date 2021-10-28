@@ -1,15 +1,15 @@
 namespace wtw_interview_project_api.Entities
 {
-    public enum PersonStatusEnum
+    public enum AgentStatusEnum
     {
         Inactive = 0,
         Active = 1
     }
-    public class Person
+    public class Agent
     {
-        public int PersonId { get; set; }
+        public int AgentId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public PersonStatusEnum Status { get; set; }
+        public AgentStatusEnum Status { get; set; }
     }
 }

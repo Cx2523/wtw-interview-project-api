@@ -5,63 +5,63 @@ namespace wtw_interview_project_api.MockData
 {
     public class MockPersons
     {
-        public static IEnumerable<Person> MockPersonsList = new List<Person>
+        public static IEnumerable<Agent> MockPersonsList = new List<Agent>
         {
-            new Person
+            new Agent
             {
-                PersonId = 1,
+                AgentId = 1,
                 FirstName = "Dwight",
                 LastName = "Shrute",
-                Status = PersonStatusEnum.Active
+                Status = AgentStatusEnum.Active
             },
-            new Person
+            new Agent
             {
-                PersonId = 2,
+                AgentId = 2,
                 FirstName = "Frodo",
                 LastName = "Baggins",
-                Status = PersonStatusEnum.Active
+                Status = AgentStatusEnum.Active
             },
-            new Person
+            new Agent
             {
-                PersonId = 3,
+                AgentId = 3,
                 FirstName = "Samwise",
                 LastName = "Gamgee",
-                Status = PersonStatusEnum.Inactive
+                Status = AgentStatusEnum.Inactive
             },
-            new Person
+            new Agent
             {
-                PersonId = 4,
+                AgentId = 4,
                 FirstName = "Ron",
                 LastName = "Swanson",
-                Status = PersonStatusEnum.Active
+                Status = AgentStatusEnum.Active
             },
-            new Person
+            new Agent
             {
-                PersonId = 5,
+                AgentId = 5,
                 FirstName = "Leslie",
                 LastName = "Knope",
-                Status = PersonStatusEnum.Inactive
+                Status = AgentStatusEnum.Inactive
             },
-            new Person
+            new Agent
             {
-                PersonId = 6,
+                AgentId = 6,
                 FirstName = "Paul",
                 LastName = "Atreides",
-                Status = PersonStatusEnum.Active
+                Status = AgentStatusEnum.Active
             },
-            new Person
+            new Agent
             {
-                PersonId = 7,
+                AgentId = 7,
                 FirstName = "Jean-Luc",
                 LastName = "Picard",
-                Status = PersonStatusEnum.Active
+                Status = AgentStatusEnum.Active
             },
-            new Person
+            new Agent
             {
-                PersonId = 8,
+                AgentId = 8,
                 FirstName = "James",
                 LastName = "Kirk",
-                Status = PersonStatusEnum.Inactive
+                Status = AgentStatusEnum.Inactive
             },
         };
     }

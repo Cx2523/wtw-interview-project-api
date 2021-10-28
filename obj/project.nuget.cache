@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "NfG3a6P8KMor1DWZkI/rPXQrFSXXsp2RuxyZ38XApAwh8UuMlAYSRPZsWv18o2IOfDVqNYfim+CgBPXupkFAlA==",
+  "dgSpecHash": "mpdiU4IbqKDO6iza/xWtc9XA+46tTgbb23TkP2JPKKqdyOAFuqaEWuqpEqs4bTjrGNoN+bzCJ31YLNAuRuo+Aw==",
   "success": true,
   "projectFilePath": "C:\\Users\\chcaldw\\wtw-interview-project-api\\wtw-interview-project-api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\chcaldw\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
+    "C:\\Users\\chcaldw\\.nuget\\packages\\microsoft.data.sqlite\\5.0.11\\microsoft.data.sqlite.5.0.11.nupkg.sha512",
+    "C:\\Users\\chcaldw\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.11\\microsoft.data.sqlite.core.5.0.11.nupkg.sha512",
+    "C:\\Users\\chcaldw\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\chcaldw\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\chcaldw\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\chcaldw\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
+    "C:\\Users\\chcaldw\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\chcaldw\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

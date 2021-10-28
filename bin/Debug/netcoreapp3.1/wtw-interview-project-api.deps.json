@@ -24,6 +24,8 @@
     ".NETCoreApp,Version=v3.1": {
       "wtw-interview-project-api/1.0.0": {
         "dependencies": {
+          "Dapper": "2.0.90",
+          "Microsoft.Data.Sqlite": "5.0.11",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -208,7 +210,7 @@
           "System.Linq.Expressions": "4.2.2.0",
           "System.Linq.Parallel": "4.0.4.0",
           "System.Linq.Queryable": "4.0.4.0",
-          "System.Memory": "4.2.1.0",
+          "System.Memory.Reference": "4.2.1.0",
           "System.Net": "4.0.0.0",
           "System.Net.Http": "4.2.2.0",
           "System.Net.HttpListener": "4.0.2.0",
@@ -233,7 +235,7 @@
           "System.Reflection": "4.2.2.0",
           "System.Reflection.Emit": "4.1.2.0",
           "System.Reflection.Emit.ILGeneration": "4.1.1.0",
-          "System.Reflection.Emit.Lightweight": "4.1.1.0",
+          "System.Reflection.Emit.Lightweight.Reference": "4.1.1.0",
           "System.Reflection.Extensions": "4.1.2.0",
           "System.Reflection.Metadata": "1.4.5.0",
           "System.Reflection.Primitives": "4.1.2.0",
@@ -314,6 +316,160 @@
           "wtw-interview-project-api.dll": {}
         }
       },
+      "Dapper/2.0.90": {
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.90.36046"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Dapper.dll": {}
+        }
+      },
+      "Microsoft.Data.Sqlite/5.0.11": {
+        "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "5.0.11",
+          "SQLitePCLRaw.bundle_e_sqlite3": "2.0.4"
+        }
+      },
+      "Microsoft.Data.Sqlite.Core/5.0.11": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
+            "assemblyVersion": "5.0.11.0",
+            "fileVersion": "5.0.1121.47202"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.4",
+          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
+          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          },
+          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
+          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.0.4": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
+        "runtimeTargets": {
+          "runtimes/alpine-x64/native/libe_sqlite3.so": {
+            "rid": "alpine-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm/native/libe_sqlite3.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libe_sqlite3.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-armel/native/libe_sqlite3.so": {
+            "rid": "linux-armel",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-mips64/native/libe_sqlite3.so": {
+            "rid": "linux-mips64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libe_sqlite3.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libe_sqlite3.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x86/native/libe_sqlite3.so": {
+            "rid": "linux-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libe_sqlite3.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm/native/e_sqlite3.dll": {
+            "rid": "win-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/e_sqlite3.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/e_sqlite3.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/e_sqlite3.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
+        }
+      },
+      "System.Memory/4.5.3": {},
+      "System.Reflection.Emit.Lightweight/4.7.0": {},
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -1418,7 +1574,7 @@
         },
         "compileOnly": true
       },
-      "System.Memory/4.2.1.0": {
+      "System.Memory.Reference/4.2.1.0": {
         "compile": {
           "System.Memory.dll": {}
         },
@@ -1568,7 +1724,7 @@
         },
         "compileOnly": true
       },
-      "System.Reflection.Emit.Lightweight/4.1.1.0": {
+      "System.Reflection.Emit.Lightweight.Reference/4.1.1.0": {
         "compile": {
           "System.Reflection.Emit.Lightweight.dll": {}
         },
@@ -2013,6 +2169,69 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Dapper/2.0.90": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e4YjOLJptnpwHIbP8HxjaYf7So9lhUC43rvvGMEkH4Q4CiVlm4rOxYDo0HyuHlMQKj0U5Ob/nCMm52TUhTaZQg==",
+      "path": "dapper/2.0.90",
+      "hashPath": "dapper.2.0.90.nupkg.sha512"
+    },
+    "Microsoft.Data.Sqlite/5.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gJeMewl7lX0+/4aempaTJi3Ix84+bXEaMcgBEG6m78DmKL4g2vkdJYeepqaIrZtssKStSsJ/qZshuPlp36ZdYw==",
+      "path": "microsoft.data.sqlite/5.0.11",
+      "hashPath": "microsoft.data.sqlite.5.0.11.nupkg.sha512"
+    },
+    "Microsoft.Data.Sqlite.Core/5.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q9ysbiVbbiOiRwKxGLRRMOP9sNCfKoPsCjyyOI5m/BDgJ0JVcZjsO2jvAIFDnVKGpSFbCNwEa1aBihA1nkcvzQ==",
+      "path": "microsoft.data.sqlite.core/5.0.11",
+      "hashPath": "microsoft.data.sqlite.core.5.0.11.nupkg.sha512"
+    },
+    "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f5U8Sw0lRym8tTraJ2zm6OqcDrcrEVvcKDtYlKSLs3Ox9SerkwkPXiFXb/uiW0g2tJdUw6oBhsxI/l5DoRxXMg==",
+      "path": "sqlitepclraw.bundle_e_sqlite3/2.0.4",
+      "hashPath": "sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4XlDZpDAsboMD6qZQcz9AaKblKDUTVHF+8f3lvbP7QjoqSRr2Xc0Lm34IK2pjRIYnyFLhI3yOJ5YWfOiCid2yg==",
+      "path": "sqlitepclraw.core/2.0.4",
+      "hashPath": "sqlitepclraw.core.2.0.4.nupkg.sha512"
+    },
+    "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oetvmtDZOE4Nnrtxd8Trapl9geBiu0rDCUXff46qGYjnUwzaU1mZ3OHnfR402tl32rx8gBWg3n5OBRaPJRbsGw==",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.0.4",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512"
+    },
+    "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AY6+vv/4ji1mCkLrS6HP/88rHT9YFKRyg3LUj8RyIk6imJMUFdQDiP8rK8gq0a/0FbqspLjK1t7rtKcr7FXRYA==",
+      "path": "sqlitepclraw.provider.dynamic_cdecl/2.0.4",
+      "hashPath": "sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",
@@ -2934,7 +3153,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Memory/4.2.1.0": {
+    "System.Memory.Reference/4.2.1.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -3059,7 +3278,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Reflection.Emit.Lightweight/4.1.1.0": {
+    "System.Reflection.Emit.Lightweight.Reference/4.1.1.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
