@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chcaldw\\wtw-interview-project-api\\wtw-interview-project-api.csproj": {}
+    "C:\\Users\\chcaldw\\Desktop\\Senior Software Engineer Interview\\wtw-interview-project-api\\wtw-interview-project-api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chcaldw\\wtw-interview-project-api\\wtw-interview-project-api.csproj": {
+    "C:\\Users\\chcaldw\\Desktop\\Senior Software Engineer Interview\\wtw-interview-project-api\\wtw-interview-project-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chcaldw\\wtw-interview-project-api\\wtw-interview-project-api.csproj",
+        "projectUniqueName": "C:\\Users\\chcaldw\\Desktop\\Senior Software Engineer Interview\\wtw-interview-project-api\\wtw-interview-project-api.csproj",
         "projectName": "wtw-interview-project-api",
-        "projectPath": "C:\\Users\\chcaldw\\wtw-interview-project-api\\wtw-interview-project-api.csproj",
+        "projectPath": "C:\\Users\\chcaldw\\Desktop\\Senior Software Engineer Interview\\wtw-interview-project-api\\wtw-interview-project-api.csproj",
         "packagesPath": "C:\\Users\\chcaldw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chcaldw\\wtw-interview-project-api\\obj\\",
+        "outputPath": "C:\\Users\\chcaldw\\Desktop\\Senior Software Engineer Interview\\wtw-interview-project-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chcaldw\\AppData\\Roaming\\NuGet\\NuGet.Config",
